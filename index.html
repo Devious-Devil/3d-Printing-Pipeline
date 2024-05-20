@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Printing Service</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Our 3D Printing Service</h1>
+    <form action="https://your-heroku-app.herokuapp.com/submit-request" method="POST" enctype="multipart/form-data">
+        <label for="model">Upload 3D Model:</label>
+        <input type="file" id="model" name="model" accept=".stl,.obj">
+        <input type="submit" value="Submit Request">
+    </form>
+</body>
+</html>
